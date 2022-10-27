@@ -1,3 +1,4 @@
+import { Contador } from "./components/Contador";
 import { Funciones } from "./typescript/Funciones";
 import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
 import { TiposBásicos } from "./typescript/TiposBásicos";
@@ -7,11 +8,12 @@ const App = () => {
     <div className="mt-2">
       <h1>Introducción a ts react</h1>
       <hr />
-      <TiposBásicos />
+      {/* <TiposBásicos />
       <hr />
       <ObjetosLiterales />
       <hr />
-      <Funciones />
+      <Funciones /> */}
+      <Contador />
     </div>
   );
 };
